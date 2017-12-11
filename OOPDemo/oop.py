@@ -1,5 +1,5 @@
-from OOP.Man import Man
-from OOP.Student import Student
+from OOPDemo.Man import Man
+from OOPDemo.Student import Student
 
 # 实例化类
 john = Man('John', 22)

@@ -1,4 +1,4 @@
-from OOP.Man import Man
+from OOPDemo.Man import Man
 
 
 # 单继承示例
