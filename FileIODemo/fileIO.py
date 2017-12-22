@@ -3,6 +3,9 @@
 # 2.遍历文件里的数据
 # 3.关闭文件
 
+# python脚本会自动在windows和Unix的路径中使用斜杠表示字符串路径
+# 例如打开文件的时候，'D:/new/text.dat'在window和Unix都有效
+
 if True:
 	# 该块为文件的读取实例
 	man = []
