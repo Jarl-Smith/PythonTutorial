@@ -39,3 +39,13 @@ except IOError as ioe:
 # 切片操作的第三个值为步进(stride),表示每隔k个元素索引一次
 s = '1A2B3C4D5F'
 print(s[::2])
+
+# 函数和方法的参数可以使用位置或关键字名称来传递
+print('{motto},{pork} and {food}'.format(motto='spam', pork='ham', food='spam'))
+
+# 替代目标语法格式
+# {fieldname!conversionflag:formatspec}
+# fieldname是指定参数的一个数字或关键字，后面跟着可选的'.name'或'[index]'成分引用
+# conversionflag可以是r、s或者a分别是在该值上对repr、str或ascii内置函数的一次调用
+# formatspec指定了如何表示该值，包括字段宽度、对齐方式、补零、小数点精度等细节，并且以一个可选的数据类型编码结束
+# 冒号后的formatspec组成形式上的描述如下：[[fill]align][sign][#][0][width][.precision][typecode]
