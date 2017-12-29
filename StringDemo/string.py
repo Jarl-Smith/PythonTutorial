@@ -27,10 +27,10 @@ print(html)
 # 字符串前边加'r'可以将字符串里的所有转义字符转化为字面量，实质就是添加'\'将转义字符的'\'进行转义
 directory = r'D:\new\text.dat'
 try:
-	with open(directory, 'w') as file1:
-		file1.writelines(r'\t\r\n')
+    with open(directory, 'w') as file1:
+        file1.writelines(r'\t\r\n')
 except IOError as ioe:
-	print(str(ioe))
+    print(str(ioe))
 
 # 一个raw字符串不能以奇数个反斜杠结束，如果需要用单个的反斜杠结束一个raw字符串，
 # 可以使用两个反斜杠并分片掉第二个反斜杠(r'1\nb\tc\\'[:-1])、手动添加一个反斜杠(r'1\nb\tc'+'\\')、
