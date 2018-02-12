@@ -93,7 +93,20 @@ scroH = 3
 # 创建滚动文本框(关联窗体，宽度，高度，以单词为单位进行换行)
 scr = scrolledtext.ScrolledText(win, width=scroW, height=scroH, wrap=tk.WORD)
 # 指定该组件所在网格位置以及跨行个数
-scr.grid(column=0, row=4, columnspan=3)
+scr.grid(column=0, row=4, columnspan=3, sticky='WE')
+
+# 创建标签框架(关联主窗口，标题)
+labelsFrame = ttk.Labelframe(win, text='Labels in a Frame')
+labelsFrame.grid(column=0, row=5, padx=20, pady=40)
+# 在标签框架中创建标签并指定在标签框架中的网格位置
+ttk.Label(labelsFrame, text='Label1').grid(column=0, row=0)
+ttk.Label(labelsFrame, text='Label2').grid(column=1, row=0)
+ttk.Label(labelsFrame, text='Label3').grid(column=2, row=0)
+# 为标签框架中的所有组件设置间距
+for child in labelsFrame.winfo_children():
+    child.grid_configure(padx=8, pady=4)
 
 # 循环监听窗体事件
 win.mainloop()
+
+# 最终显示结果比较丑，因为网格布局中的一列宽度是动态的(该列所有组件的最大宽度)，同理一行也是这样
