@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f21bee-0828-4d68-a4c5-bb65fd0cb15f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/oopgui.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/tooltip.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/GUI/tabbedtest.py" afterPath="$PROJECT_DIR$/GUI/tabbedtest.py" />
     </list>
@@ -18,6 +20,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$side__1_.coverage" NAME="side (1) Coverage Results" MODIFIED="1511839177466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PickleTutorial" />
     <SUITE FILE_PATH="coverage/PythonProject$demomain.coverage" NAME="demomain Coverage Results" MODIFIED="1511859897265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/PythonTutorial$demoside.coverage" NAME="demoside Coverage Results" MODIFIED="1511923727836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/PythonTutorial$oopgui.coverage" NAME="oopgui Coverage Results" MODIFIED="1518500380600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1511838743241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
     <SUITE FILE_PATH="coverage/PythonTutorial$demomain.coverage" NAME="demomain Coverage Results" MODIFIED="1512011061985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/PythonTutorial$number.coverage" NAME="number Coverage Results" MODIFIED="1512783662201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Number" />
@@ -30,10 +33,10 @@
     <SUITE FILE_PATH="coverage/PythonTutorial$string.coverage" NAME="string Coverage Results" MODIFIED="1513560968233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
     <SUITE FILE_PATH="coverage/PythonTutorial$Athlete.coverage" NAME="Athlete Coverage Results" MODIFIED="1511924937198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/PythonTutorial$randomdemo.coverage" NAME="randomdemo Coverage Results" MODIFIED="1512787568080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandomDemo" />
-    <SUITE FILE_PATH="coverage/PythonTutorial$tabbedtest.coverage" NAME="tabbedtest Coverage Results" MODIFIED="1518487109883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/PythonTutorial$tabbedtest.coverage" NAME="tabbedtest Coverage Results" MODIFIED="1518489436336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
     <SUITE FILE_PATH="coverage/PythonTutorial$Inherit.coverage" NAME="Inherit Coverage Results" MODIFIED="1512004186095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/PythonProject$listmain.coverage" NAME="listmain Coverage Results" MODIFIED="1511858127870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListComprehension" />
-    <SUITE FILE_PATH="coverage/PythonTutorial$test.coverage" NAME="test Coverage Results" MODIFIED="1513761977711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
+    <SUITE FILE_PATH="coverage/PythonTutorial$test.coverage" NAME="test Coverage Results" MODIFIED="1518498822415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/PythonTutorial$numberdemo.coverage" NAME="numberdemo Coverage Results" MODIFIED="1512785752559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumberDemo" />
     <SUITE FILE_PATH="coverage/PythonTutorial$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1518142736688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/PythonTutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1511916685280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PickleTutorial" />
@@ -44,14 +47,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tabbedtest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabbedtest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/tabbedtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-881">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+            <state relative-caret-position="2546">
+              <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oopgui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/oopgui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tooltip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/tooltip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +100,12 @@
       <find>,</find>
       <find>:</find>
       <find>tk.W</find>
+      <find>win</find>
+      <find>menuBar</find>
+      <find>spin</find>
+      <find>monty</find>
+      <find>name</find>
+      <find>number</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -85,6 +114,12 @@
       <replace>,</replace>
       <replace>.</replace>
       <replace>'W'</replace>
+      <replace>self.win</replace>
+      <replace>self.menuBar</replace>
+      <replace>self.spin</replace>
+      <replace>self.monty</replace>
+      <replace>self.name</replace>
+      <replace>self.number</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/main.py" />
-        <option value="$PROJECT_DIR$/Demo/ytf.py" />
         <option value="$PROJECT_DIR$/Demo/demoside.py" />
         <option value="$PROJECT_DIR$/Demo/Athlete.py" />
         <option value="$PROJECT_DIR$/OOP/Plain_Old_Python_Object.py" />
@@ -139,11 +172,13 @@
         <option value="$PROJECT_DIR$/PickleTutorial/side.py" />
         <option value="$PROJECT_DIR$/PickleTutorial/main.py" />
         <option value="$PROJECT_DIR$/SetDemo/setdemo.py" />
-        <option value="$PROJECT_DIR$/Test/test.py" />
         <option value="$PROJECT_DIR$/Test/person.py" />
         <option value="$PROJECT_DIR$/GUI/layouttest.py" />
         <option value="$PROJECT_DIR$/GUI/widgetstest.py" />
         <option value="$PROJECT_DIR$/GUI/tabbedtest.py" />
+        <option value="$PROJECT_DIR$/Test/test.py" />
+        <option value="$PROJECT_DIR$/GUI/tooltip.py" />
+        <option value="$PROJECT_DIR$/GUI/oopgui.py" />
       </list>
     </option>
   </component>
@@ -175,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tutorial/__main__.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -223,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tabbedtest">
+  <component name="RunManager" selected="Python.oopgui">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +361,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="oopgui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonTutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/oopgui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tabbedtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,26 +399,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyEncrypt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonTutorial" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyEncrypt/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -377,7 +412,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonTutorial" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PythonProject\PythonTutorial\Test\person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,19 +517,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Python 3.6" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.widgetstest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.layouttest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.tabbedtest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.widgetstest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.layouttest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tabbedtest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.oopgui" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tabbedtest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.layouttest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.widgetstest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.oopgui" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tabbedtest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.layouttest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.widgetstest" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518142967459</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加GUI案例">
+      <created>1518487370949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1518487370949</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -643,10 +685,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35674676" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15714286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35595238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15714286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37565216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2880259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -713,27 +755,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1014,20 +1035,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/layouttest.py" />
-    <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
+    <entry file="file://$PROJECT_DIR$/Test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="111" column="50" lean-forward="false" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
+        <state relative-caret-position="321">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/tabbedtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-881">
-          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="2546">
+          <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/widgetstest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/oopgui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/tooltip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

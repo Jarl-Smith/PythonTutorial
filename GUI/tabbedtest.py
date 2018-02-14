@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import scrolledtext
 from tkinter import messagebox as mBox
 
-
+#========定义组件提示类=========
 class ToolTip():
     def __init__(self, widget):
         self.widget = widget
@@ -31,7 +31,7 @@ class ToolTip():
         if tw:
             tw.destroy()
 
-
+#======创建鼠标停留组件事件需要绑定的回调函数
 def createToolTip(widget, text):
     toolTip = ToolTip(widget)
 
@@ -49,11 +49,12 @@ win = tk.Tk()
 win.wm_title('Tabbed Layout')
 # 设定图标
 win.iconbitmap(r'F:/GTA San Andreas/game.ico')
-
+# 创建菜单栏
 menuBar = tk.Menu(win)
+# 主窗口关联菜单栏
 win.config(menu=menuBar)
 
-
+#=========定义菜单about选项的回调函数(弹出信息、警告或错误窗口)
 def _msgBox():
     type = ''
     if type == 'info':
@@ -68,19 +69,22 @@ def _msgBox():
         answer = mBox.askyesno('Python Message Dual Choice Box', 'Are you sure you really wish to do this ?')
         print(answer)
 
-
+#=========定义退出按钮的回调函数
 def _quit():
     win.quit()
     win.destroy()
     exit()
 
-
+#======创建菜单
 fileMenu = tk.Menu(menuBar, tearoff=0)
+#======添加菜单选项
 fileMenu.add_command(label='File')
 fileMenu.add_separator()
+#=====添加菜单选项并关联回调函数
 fileMenu.add_command(label='Exit', command=_quit)
 helpMenu = tk.Menu(menuBar, tearoff=0)
 helpMenu.add_command(label='About', command=_msgBox)
+#=====以添加层叠的方式添加菜单
 menuBar.add_cascade(label='File', menu=fileMenu)
 menuBar.add_cascade(label='Help', menu=helpMenu)
 
@@ -110,26 +114,28 @@ numberChosen.grid(column=1, row=1)
 numberChosen['value'] = [1, 2, 3, 4, 5]
 numberChosen.current(0)
 
-
+#=====定义按钮回调函数
 def callBack():
     action.configure(text='Hello ' + name.get() + ' ' + number.get())
     action.configure(state='disabled')
 
-
+#====创建按钮组件并关联回调函数
 action = ttk.Button(monty, text='Click Me', command=callBack)
 action.grid(column=2, row=1)
 
 
 def _spin():
     value = spin.get()
-    scr.insert(tk.INSERT, value + '\n')
+    # scr.insert(tk.INSERT, value + '\n')
+    print(value)
 
 
 spin = tk.Spinbox(monty, from_=1, to=10, width=5, bd=5, command=_spin)
 spin.grid(column=0, row=2)
 # 指定一组特定值以供选择,改变外观
-spin2 = tk.Spinbox(monty, values=(2, 4, 42, 100), width=5, bd=5, relief=tk.GROOVE, command=_spin)
+spin2 = tk.Spinbox(monty, values=(1, 2, 4, 42, 100), width=5, bd=5, relief=tk.GROOVE, command=_spin)
 spin2.grid(column=1, row=2)
+#===给组建添加提示
 createToolTip(spin2, 'This is a spin widget.')
 
 scrW = 30
@@ -137,7 +143,7 @@ scrH = 3
 scr = scrolledtext.ScrolledText(monty, width=scrW, height=scrH, wrap=tk.WORD)
 scr.grid(column=0, row=3, columnspan=3, sticky='WE')
 
-cheVars = [tk.IntVar() for i in range(3)]
+cheVars = [tk.BooleanVar() for i in range(3)]
 cheText = ['Disabled', 'Unchecked', 'Checked']
 cheState = [['disabled', 'selected'], ['!disabled', '!selected'], ['!disabled', 'selected']]
 for col in range(3):
